@@ -1,51 +1,71 @@
 .App {
-  text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .book {
   display: block;
   margin: 0 auto;
-  margin-top: 20px;
   text-align: center;
   background-image: url("https://st4.depositphotos.com/1484771/37819/i/600/depositphotos_378193086-stock-photo-literature-reading-concept-banner-header.jpg");
   background-repeat: no-repeat;
   background-size: 80%;
+  height: 200px;
 }
 
 h1 {
   font-size: 60px;
   color: white;
+  font-weight: bold;
   padding: 50px;
 }
 
 section {
   display: block;
   margin: 0 auto;
-  text-align: center;
+  text-align: justify;
+  line-height: 1.5;
   width: 400px;
+  margin-bottom: 50px;
 }
 
 section form {
   display: block;
   margin: 0 auto;
-  size: 400px;
-  border-radius: 10px;
+  text-align: center;
+  margin-top: 50px;
   margin-bottom: 50px;
+}
+
+section input {
+  width: 400px;
+  border: 2px solid rgb(58, 44, 27);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 5px #e0dcdc;
 }
 
 footer {
   display: block;
   margin: 0 auto;
   text-align: center;
-  background-image: url("https://cdn.pixabay.com/photo/2014/09/05/18/32/old-books-436498_960_720.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn.pixabay.com/photo/2014/09/05/18/32/old-books-436498_960_720.jpg");
   background-repeat: no-repeat;
   background-size: 80%;
+  height: 200px;
   color: white;
+}
+
+footer p {
+  padding: 100px;
 }
 
 footer a {
   text-decoration: none;
   color: aliceblue;
-  padding: 50px;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: rgb(174, 166, 153);
 }

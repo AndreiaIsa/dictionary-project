@@ -14,14 +14,16 @@ function App() {
           <Dictionary />
         </section>
         <footer>
-          <a
-            href="https://github.com/AndreiaIsa/dictionary-project"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Open sourced
-          </a>
-          by Andreia Gonçalves
+          <p>
+            <a
+              href="https://github.com/AndreiaIsa/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Open sourced</strong>
+            </a>
+            {""} by Andreia Gonçalves
+          </p>
         </footer>
       </div>
     </div>
