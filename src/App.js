@@ -10,7 +10,7 @@ function App() {
       <section className="definition">searchDefinitions</section>
       <footer>
         <a
-          href="https://github.com/AndreiaIsa/Dictionary-React-Projects"
+          href="https://github.com/AndreiaIsa/dictionary-project"
           target="_blank"
           rel="noreferrer"
         >
