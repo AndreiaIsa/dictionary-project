@@ -19,14 +19,19 @@ h1 {
   padding: 50px;
 }
 
-.definition {
+section {
   display: block;
   margin: 0 auto;
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("https://images.pexels.com/photos/3728085/pexels-photo-3728085.jpeg");
-  background-repeat: no-repeat;
-  background-size: 80%;
+  width: 400px;
+}
+
+section form {
+  display: block;
+  margin: 0 auto;
+  size: 400px;
+  border-radius: 10px;
+  margin-bottom: 50px;
 }
 
 footer {
