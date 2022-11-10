@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="book">
-          <h1 className="dictionary">Dictionary</h1>
+          <h1 className="dictionary">English Dictionary</h1>
         </header>
         <section>
           <Dictionary />
