@@ -44,6 +44,11 @@ section input {
   box-shadow: 5px 5px 5px 5px #e0dcdc;
 }
 
+section a {
+  text-decoration: none;
+  font-size: 30px;
+}
+
 footer {
   display: block;
   margin: 0 auto;
