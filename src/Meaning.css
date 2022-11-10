@@ -11,3 +11,17 @@
   font-size: 15px;
   font-style: italic;
 }
+
+@media (max-width: 860px) {
+  .speech {
+    font-size: 15px;
+  }
+
+  .definition {
+    font-size: 12px;
+  }
+
+  .example {
+    font-size: 12px;
+  }
+}
