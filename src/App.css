@@ -28,6 +28,10 @@ section {
   margin-bottom: 50px;
 }
 
+h2 {
+  font-size: 40px;
+}
+
 section form {
   display: block;
   margin: 0 auto;

@@ -11,7 +11,7 @@ function App() {
           <h1 className="dictionary">English Dictionary</h1>
         </header>
         <section>
-          <Dictionary />
+          <Dictionary defaultKeyword="music" />
         </section>
         <footer>
           <p>

@@ -1,0 +1,13 @@
+.speech {
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.definition {
+  font-size: 15px;
+}
+
+.example {
+  font-size: 15px;
+  font-style: italic;
+}
