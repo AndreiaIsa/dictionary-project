@@ -3,12 +3,10 @@
 }
 
 .book {
-  display: block;
-  margin: 0 auto;
   text-align: center;
   background-image: url("https://st4.depositphotos.com/1484771/37819/i/600/depositphotos_378193086-stock-photo-literature-reading-concept-banner-header.jpg");
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: 100%;
   height: 200px;
 }
 
@@ -54,13 +52,11 @@ section a {
 }
 
 footer {
-  display: block;
-  margin: 0 auto;
   text-align: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://cdn.pixabay.com/photo/2014/09/05/18/32/old-books-436498_960_720.jpg");
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: 100%;
   height: 200px;
   color: white;
 }
@@ -81,13 +77,14 @@ footer a:hover {
 
 @media (max-width: 860px) {
   .book {
-    background-size: 100%;
+    width: 100%;
+    text-align: center;
   }
 
   h1 {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.5;
-    padding: 30px;
+    padding-top: 50px;
   }
 
   section {
@@ -113,8 +110,9 @@ footer a:hover {
   }
 
   footer {
-    background-size: 100%;
+    width: 100%;
     height: 100px;
+    text-align: center;
   }
 
   footer p {
